@@ -79,10 +79,15 @@ body {
 /* Search bar */
 .search {
   display: flex;
-  align-items: center;
+ 
   background: #f0f0f0;
   padding: 5px 10px;
   border-radius: 20px;
+  width: 40%;
+  align-items: center;
+  margin-right: 600px;
+  padding: 5px, 10px;
+
 }
 
 .search i {
@@ -96,9 +101,11 @@ body {
   background: transparent;
   width: 300px;
   height: 30px;
+  
+  
 }
 
-/* Welcome block */
+
 .welcome {
   display: flex;
   align-items: center;
@@ -133,7 +140,7 @@ body {
   
 }
 .btn:hover {
-  background: #135ba1;
+  background: green;
 }
 
 /* Content Section */
@@ -141,13 +148,14 @@ body {
   display: flex;
   gap: 2rem;
   margin-top: 220px; /* space for fixed nav */
-  margin-left: 300px;
+  margin-left: 320px;
   margin-right: 20px;
 }
 
 /* Projects */
 .project {
   flex: 3;
+  left: 10px;
 }
 
 .project h3 {
@@ -186,7 +194,16 @@ body {
 /* Right Panel */
 .right-panel {
   flex: 1;
+  padding: 1rem;
+  margin-bottom: 15px;
 }
+.right-panel h3 {
+  margin-bottom: 5px;
+}
+.announcements{
+  margin-bottom: 30px;
+}
+
 
 .announcements, .trending {
   background-color: white;
